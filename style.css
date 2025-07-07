@@ -1,10 +1,13 @@
 body{
     font-family: Roboto;
+    color: #f9fAf8;
+    margin: 0px;
 }
 
 img{
-    width: 10%;
+    width: 30%;
     height: auto;
+    display: flex;
 }
 
 a{
@@ -13,14 +16,41 @@ a{
     color: gray;
 }
 
+.logo{
+    width: 10%;
+    height: auto;
+    padding: 8px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
 }
- .right-links{
+
+ .right{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding: 8px;
+ }
+
+  .left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+ }
+
+ .nav{
+    padding: 16px;
     gap: 16px;
+ }
+
+ .upper-third{
+    background-color: #1F2937;
+ }
+ 
+ .container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 16px;
+    padding: 16px;
  }
