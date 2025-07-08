@@ -8,6 +8,7 @@ img{
     height: 280px;
     display: flex;
     object-fit:cover;  
+    object-position: 30%;
 }
 
 h1{
@@ -45,14 +46,13 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 8px;
-    padding: 8px;
+    margin: 16px;
+    padding: 16px;
 }
 
 .upper-image{
-    max-width: 500px;
-    max-height: 500px;
-    padding: 8px;
+    padding: 0px 8px;
+    margin: 0 px 8px;
 }
 
 .nav{
@@ -60,21 +60,24 @@ a{
     gap: 16px;
 }
 
-.upper-section{
+.dark-section{
     background-color: #1F2937;
     color: #f9fAf8;
+    margin: 0px;
 }
 
 .button {
   background-color: #3882F6;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
   display: block;
   font-size: 16px;
   max-width: 50%;
+  max-height: 50%;
+  align-items: center;
 }
  
 .container{
@@ -109,7 +112,7 @@ a{
     font-size: 36px;
     font-style: italic;
     margin: 16px;
-    padding: 8px;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,5 +125,28 @@ a{
     font-size: 26px;
     font-weight: bold;
     text-align: right;
-    padding: 8px;
+    padding: 16px;
+}
+
+.box{
+    background-color: #3882F6;
+    margin: 32px;
+    border: solid;
+    border-color: white;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
